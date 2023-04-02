@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ok</title>
+</head>
+<body>
+<h1>Welcome!</h1>
+
+<p id="target"></p>
+<script>
+  'use strict';
+  const number1 = prompt('Type a number.');
+  const number2 = prompt('Type a second number.');
+  const number3 = prompt('Type a third number.');
+  const sum = number1 + number2 + number3;
+  const average = sum / 3;
+
+  document.querySelector('#target').innerHTML = 'Sum of your numbers is ' + sum + ' and the average is ' + average;
+</script>
+</body>
+</html>
