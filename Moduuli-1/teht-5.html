@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ok</title>
+</head>
+<body>
+<h1>Electronic sorting hat</h1>
+
+<p id="target"></p>
+<script>
+  function leapYear(year){
+  return (year % 100 !== 0 || year % 400 === 0) && (year % 4 === 0)
+  }
+
+  let year = prompt('Enter a year to see if it is a leap year.');
+  if(leapYear(year)){
+    document.getElementById("target").innerHTML = "The given year is a leap year!"
+  }
+  else{
+    document.getElementById("target").innerHTML = "The given year is not a leap year!"
+  }
+
+</script>
+</body>
+</html>
