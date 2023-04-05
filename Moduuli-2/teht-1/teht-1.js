@@ -9,7 +9,7 @@ function addNumbersToArray() {
 }
 
 // Reverse and add to new array
-function reverseArray(array) {
+function reverseArray() {
   let numbersReversed = [];
   for (let i = 0; i < numbers.length; i++) {
     numbersReversed[i] = numbers[numbers.length - i - 1];
