@@ -6,5 +6,5 @@ do {
   numbers.push(number);
 } while (number !== 0);
 
-numbers.sort(function(a, b){return a-b});
+numbers.sort(function(a, b){return b-a});
 console.log('Numbers: ' + numbers);
