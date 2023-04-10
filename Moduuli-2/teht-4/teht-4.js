@@ -2,7 +2,7 @@
 let numbers = [];
 let number = Number(1);
 do {
-  number = Number(prompt('Syötä numero.'));
+  number = Number(prompt('Type a number.'));
   numbers.push(number);
 } while (number !== 0);
 
